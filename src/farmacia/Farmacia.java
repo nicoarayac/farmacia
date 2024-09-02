@@ -25,6 +25,7 @@ public class Farmacia {
         //registrar medicamento
         SistemaInventario sistemaInventario1 = new SistemaInventario("1", "Gabriela Peñaloza", "Constanza Gaete");
         sistemaInventario1.regitrarMedicamento(medicamento1);
+        //Imprimo valor cliente
         System.out.println(sistemaInventario1.getClienteActual());
     }
     
